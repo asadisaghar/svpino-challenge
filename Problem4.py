@@ -11,5 +11,5 @@ def form_the_largest(inlist):
     print outstr
     return outstr
 
-inlist = [50, 2, 1, 9]
+inlist = [50, 5, 56]
 form_the_largest(inlist)
