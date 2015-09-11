@@ -10,11 +10,13 @@ def fibo(n):
     else:
         return fibo(n-1)+fibo(n-2)
 
-def fibo100_list():
+def fibo_list(Nmax=40): #for Nmax<40 the excecution time is somewhat reasonable but not for larger Nmax. There must be a better algorithm!
     outlist=[]
-    for n in range(0, 100):
+    for n in range(Nmax):
         outlist.append(fibo(n))
+
     return outlist
 
-outlist=fibo100_list()
+outlist=fibo_list()
 print outlist
+
