@@ -16,7 +16,6 @@ def fib():
         yield f1
         f0, f1 = f1, f0+f1
 
-
 def fibo_list(Nmax=10): #for Nmax<40 the excecution time is somewhat reasonable but not for larger Nmax. There must be a better algorithm!
     outlist=[]
     for n in range(Nmax):
